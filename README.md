@@ -1,2 +1,2 @@
 # Online-CV
-My Online Curriculumm Vitae with chatbot 
+My Online Curriculumm Vitae with AI chatbot 
