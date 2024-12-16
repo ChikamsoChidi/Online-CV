@@ -100,7 +100,7 @@ with job_col1:
         """
         )
 with job_col2:
-    st.image(Image.open(current_dir/"Assets"/"Accenture.jpg"))
+    st.image(Image.open(current_dir/"assets"/"Accenture.jpg"))
   
 
 # --- JOB 2
@@ -211,7 +211,7 @@ with proj_col1:
         """
         )
 with proj_col2:
-    st.image(Image.open(current_dir/"Assets"/"Barber Site analysis.jpg"))
+    st.image(Image.open(current_dir/"assets"/"Barber Site analysis.jpg"))
 
 
 # --- Project 4
@@ -229,7 +229,7 @@ with proj_col1:
         """
         )
 with proj_col2:
-    st.image(Image.open(current_dir/"Assets"/"Sales Analysis Dashboard.png")) 
+    st.image(Image.open(current_dir/"assets"/"Sales Analysis Dashboard.png")) 
     
     
 # --- Project 5
@@ -247,4 +247,4 @@ with proj_col1:
         """
         )
 with proj_col2:
-    st.image(Image.open(current_dir/"Assets"/"Supply Chain and Freight Analytics Dashboard.png"))
+    st.image(Image.open(current_dir/"assets"/"Supply Chain and Freight Analytics Dashboard.png"))
