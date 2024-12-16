@@ -23,15 +23,7 @@ SOCIAL_MEDIA = {
     "Twitter":""
     }
 
-
-PROJECTS = {
-    "Sales Dashboard":"",
-    "Web Scraping":"",
-    "Social Media Sentiment Analysis Report":"",
-    "HHousing Price Prediction Model":""
-    }
-
-
+# --- ADD PAGE TITLE ---
 st.set_page_config(page_title=PAGE_TITLE,page_icon=PAGE_ICON, layout= "wide")
 
 
