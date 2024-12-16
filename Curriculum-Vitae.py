@@ -153,7 +153,7 @@ with proj_col1:
         """
         )
 with proj_col2:
-    st.image(Image.open(current_dir/"Assets"/"Forvis Mazars Cert.jpg"))
+    st.image(Image.open(current_dir/"assets"/"Forvis Mazars Cert.jpg"))
 
 # --- PROJECT 1
 st.write("#")
@@ -174,7 +174,7 @@ with proj_col1:
         """
         )
 with proj_col2:
-    st.image(Image.open(current_dir/"Assets"/"Housing Pred.png"))
+    st.image(Image.open(current_dir/"assets"/"Housing Pred.png"))
 
 
 # --- PROJECT 2
@@ -193,7 +193,7 @@ with proj_col1:
         """
         )
 with proj_col2:
-    st.image(Image.open(current_dir/"Assets"/"Analysis for Social Buzz_page-0008.jpg"))
+    st.image(Image.open(current_dir/"assets"/"Analysis for Social Buzz_page-0008.jpg"))
     
     
 # --- Project 3
