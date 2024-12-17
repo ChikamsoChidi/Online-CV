@@ -31,7 +31,7 @@ st.set_page_config(layout= "wide")
 st.markdown("<h1 style='text-align: center; font-weight: bold;'>CV Buddy</h1>", unsafe_allow_html=True)
 
 #Chat input
-resp = st.container(height = 300, border  = False)
+resp = st.container(height = 270, border  = False)
 prompt = st.chat_input(placeholder = "Write a message")
 user = "😄"
 assistant = "🤖"
