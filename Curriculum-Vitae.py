@@ -60,7 +60,7 @@ st.write(
     """
     - 2+ years of experience extracting actionable insights from data
     - Strong hands on experience and knowledge
-    - Good Understanding of statistical principles and their respective applications
+    - Good understanding of statistical principles and their respective applications
     - Excellent team-player and displaying strong sense of initiative on tasks
     """
     )
@@ -113,9 +113,9 @@ with job_col1:
     st.write(
         """
         - Streamlined data collection and reporting procedures, reducing processing time by 20% 
-        enhancing efficiency
+        enhancing efficiency.
         - Implemented process improvements and automation solutions, resulting in 15% increase in 
-        productivity 
+        productivity.
         - Collaborated with 3+ cross-functional teams to gather requirements, define project scopes, and 
         ensure alignment with business objectives, fostering effective teamwork and project success.
         - Produced 15+ comprehensive reports and presentations summarizing findings and 
@@ -135,6 +135,7 @@ st.write("#")
 st.subheader("Projects and Accomplishments")
 st.divider()
 
+
 # --- PROJECT 1
 st.write("#")
 proj_col1, proj_col2 = st.columns([2.5,1])
@@ -150,19 +151,20 @@ with proj_col1:
         - Performed extensive research on the RAG (Retrieval-Augmented Generation) applications 
         to allow Smart-Audit to strictly follow IFRS and GAAP standards.
         - Integrated Azure OpenAI LLM (Large Language Model) into SmartAudit.
-        - Rigorously understudied vector databases and integrated them to initial versions of Streamlit.
+        - Rigorously understudied vector databases and integrated them to initial versions of SmartAudit.
     
         """
         )
 with proj_col2:
     st.image(Image.open(current_dir/"assets"/"Forvis Mazars Cert.jpg"))
 
-# --- PROJECT 1
+
+# --- PROJECT 2
 st.write("#")
 proj_col1, proj_col2 = st.columns([2.5,1])
 with proj_col1:
     st.write("##### Housing Price Prediction")
-    st.write("June 2024")
+    st.write("October 2024")
     st.write(
         """
         - Achieved an RSME of 44018.76 in forecasting the price of houses by developing and deploying a 
@@ -177,28 +179,26 @@ with proj_col1:
         )
 with proj_col2:
     st.image(Image.open(current_dir/"assets"/"Housing Pred.png"))
-
-
-# --- PROJECT 2
+    
+# --- Project 3
 st.write("#")
 proj_col1, proj_col2 = st.columns([2.5,1])
 with proj_col1:
-    st.write("##### Social Media Sentiment Analysis")
-    st.write("January 2024")
+    st.write("##### Sales Analysis Dashboard")
+    st.write("October 2024")
     st.write(
         """
-        - Identified key investment opportunities through sentiment analysis, resulting in 30% increase in 
-        ROI.
-        - Cleaned several datasets with varying content types and categories to achieve high data integrity.
-        - Modelled relationships between several datasets to ensure coherence and comprehensiveness.
-        - Created PowerPoint presentation slides to communicate insights to key stakeholders. 
+        - Cleaned the data to achieve high data integrity.
+        - Built interactive sales analysis dashboard to allow users filter and drill down on relevant data.
+        - Performed product-wise sales performance and analysis.
+        - Reflected real time sales tracking and visualization.
         """
         )
 with proj_col2:
-    st.image(Image.open(current_dir/"assets"/"Analysis for Social Buzz_page-0008.jpg"))
-    
-    
-# --- Project 3
+    st.image(Image.open(current_dir/"assets"/"Sales Analysis Dashboard.png")) 
+
+
+# --- Project 4
 st.write("#")
 proj_col1, proj_col2 = st.columns([2.5,1])
 with proj_col1:
@@ -215,24 +215,6 @@ with proj_col1:
 with proj_col2:
     st.image(Image.open(current_dir/"assets"/"Barber Site analysis.jpg"))
 
-
-# --- Project 4
-st.write("#")
-proj_col1, proj_col2 = st.columns([2.5,1])
-with proj_col1:
-    st.write("##### Sales Analysis Dashboard")
-    st.write("October 2024")
-    st.write(
-        """
-        - Cleaned the data to achieve high data integrity.
-        - Built interactive sales analysis dashboard to allow users filter and drill down on relevant data.
-        - Performed product-wise sales performance and analysis.
-        - Reflected real time sales tracking and visualization.
-        """
-        )
-with proj_col2:
-    st.image(Image.open(current_dir/"assets"/"Sales Analysis Dashboard.png")) 
-    
     
 # --- Project 5
 st.write("#")
@@ -245,8 +227,27 @@ with proj_col1:
         - Real-time shipment tracking and visibility.
         - Freight cost analysis and optimization.
         - Supply chain network mapping and risk assessment.
-        - Carrier performance evaluation and benchmarking.
+        - Carrier performance evaluation and benchmarking using Microsoft Excel.
         """
         )
 with proj_col2:
     st.image(Image.open(current_dir/"assets"/"Supply Chain and Freight Analytics Dashboard.png"))
+
+
+# --- PROJECT 6
+st.write("#")
+proj_col1, proj_col2 = st.columns([2.5,1])
+with proj_col1:
+    st.write("##### Social Media Sentiment Analysis")
+    st.write("January 2024")
+    st.write(
+        """
+        - Identified key investment opportunities through sentiment analysis, resulting in 30% increase in 
+        ROI.
+        - Cleaned several datasets with varying content types and categories to achieve high data integrity.
+        - Modelled relationships between several datasets to ensure coherence and comprehensiveness.
+        - Created PowerPoint presentation slides to communicate insights to key stakeholders. 
+        """
+        )
+with proj_col2:
+    st.image(Image.open(current_dir/"assets"/"Analysis for Social Buzz_page-0008.jpg"))
