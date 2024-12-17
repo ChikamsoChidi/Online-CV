@@ -70,8 +70,8 @@ st.write("#")
 st.subheader("Hard Skills")
 st.write(
     """
-    - Programming Python (Scikit-Learn, Pandas), SQL, VBA
-    - Data Visualization Power-BI, MS-Excel, Matplotlib
+    - Programming: Python (Scikit-Learn, Pandas), SQL, VBA
+    - Data Visualization: Power-BI, MS-Excel, Matplotlib
     - Modeling: Logistic Regression, Linear Regression, Decision Trees
     - Databases: PostgreSQL, SQLite
     """
