@@ -61,7 +61,7 @@ st.write(
     - 2+ years of experience extracting actionable insights from data
     - Strong hands on experience and knowledge
     - Good Understanding of statistical principles and their respective applications
-    - Excellent team-player and displaying stroong sense of initiative on tasks
+    - Excellent team-player and displaying strong sense of initiative on tasks
     """
     )
 
@@ -116,7 +116,7 @@ with job_col1:
         enhancing efficiency
         - Implemented process improvements and automation solutions, resulting in 15% increase in 
         productivity 
-        - Collaborated with 3+ cross-functional teams tgather requirements, define project scopes, and 
+        - Collaborated with 3+ cross-functional teams to gather requirements, define project scopes, and 
         ensure alignment with business objectives, fostering effective teamwork and project success.
         - Produced 15+ comprehensive reports and presentations summarizing findings and 
         recommendations, facilitating clear communication with stakeholders and driving actionable 
@@ -145,6 +145,8 @@ with proj_col1:
         """
         - Developed Smart-Audit, an innovative AI-powered tool designed to streamline the auditing process, 
         making it faster, more efficient, and less tedious.
+        - Collaborated with a team of financial experts and AI engineers to ensure alignment with auditing 
+        standards and technical feasibility.
         - Performed extensive research on the RAG (Retrieval-Augmented Generation) applications 
         to allow Smart-Audit to strictly follow IFRS and GAAP standards.
         - Integrated Azure OpenAI LLM (Large Language Model) into SmartAudit.
@@ -207,7 +209,7 @@ with proj_col1:
         - Scraped over 200 rows and 5 columns of data from multiple webpages using Selenium
         - Collected various geographic datasets for future analysis.
         - Cleaned the data to achieve high data integrity.
-        - Designed a performance dashboard with Power BI to comunicate Key Performance Indicators (KPI).
+        - Designed a performance dashboard with Power BI to communicate Key Performance Indicators (KPI).
         """
         )
 with proj_col2:
@@ -240,7 +242,7 @@ with proj_col1:
     st.write("August 2024")
     st.write(
         """
-        - Real-time shipment tracking and visiblity.
+        - Real-time shipment tracking and visibility.
         - Freight cost analysis and optimization.
         - Supply chain network mapping and risk assessment.
         - Carrier performance evaluation and benchmarking.
